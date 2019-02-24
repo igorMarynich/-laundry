@@ -1,0 +1,300 @@
+.header-left {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+}
+.header-right {
+    padding: 10px;
+}
+
+.header-content-p  {
+    font-family: Gilroyextrabold;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: darkviolet !important;
+    font-size: 75px;
+}
+.header-content {
+    color: blue;
+    font-family: Snell Roundhand;
+    font-style: italic;
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+    color: darkviolet !important;
+    font-size: 40px;
+}
+.header-content p {
+    margin: 0px;
+}
+.header-logo img {
+    width: 50px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.row {
+    margin-right: unset;
+    margin-left: unset;
+}
+.service-header, .price-header, .footer-header {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-style: italic;
+    background-color: darkviolet;
+    border-radius: 25px;
+}
+.service-column-item {
+    text-align: center;
+    font-style: italic;
+    border: 1px solid black;
+    margin: 5px;
+}
+.service-column-item h3 {
+    color: yellow;
+}
+.service-column-item-main {
+    font-size: 36px;
+    color: green;
+}
+.service-column-item-dop p{
+    color: black !important;
+    font-size: 16px !important;
+
+}
+.nav-tabs {
+    display: block !important;
+    text-align: center !important;
+}
+footer h3 {
+    text-align: center !important;
+}
+
+.time {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: chocolate;
+}
+.day {
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: indigo;
+}
+.footer-img img {
+    width: 100%;
+}
+.footer-left {
+    display: block;
+}
+.footer-right {
+    display: block;
+}
+.header-info {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+}
+.header-info-tel {
+    margin-right: 20px;
+}
+.header-h1  h3{
+    background-color: yellow;
+    color: red;
+    font-size: 40px;
+}
+.nav-link {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.header-img img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+.header-img img {
+    padding: 0px;
+    border: 2px solid blue;
+}
+.service-column-item-header {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.service-column-item-img img{
+    width: 50px;
+    height: 50px;
+}
+.service-column {
+    margin: 40px 20px;
+}
+.service-column-dop {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service-column-dop-header {
+    text-align: center;
+}
+.service-text p {
+    margin: 5px;
+    font-size: 40px;
+    color: black !important;
+}
+.service-content .nav {
+    display: unset;
+}
+.service-text {
+    padding: 0px !important;
+}
+main {
+    border-radius: 22px;
+}
+footer {
+    border-radius: 20px;
+}
+.nav-item {
+    margin-right: 5px !important;
+}
+.nav-item a {
+    background-color: dodgerblue !important;
+    color: white !important;
+}
+li a.nav-link {
+    margin: 5px !important;
+}
+.service-column-item-h2 {
+    color: black;
+}
+.service-column-item-p {
+    color: firebrick;
+}
+.service-column-dop-header {
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+.service-content {
+    color: white;
+}
+.adress {
+    font-style: italic;
+    margin-top: 15px;
+}
+.footer-left-content {
+    font-size: 20px;
+    font-style: italic;
+}
+.phone {
+    font-weight: bold;
+}
+.adress p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.service-column-item-dop {
+    color: whitesmoke;
+}
+@media (max-device-width: 420px) {
+    .work {
+        margin-top: 0px !important;
+    }
+    .phone {
+        margin-top: 0px !important;
+    }
+    .footer-content {
+        display: block !important;
+    }
+    .footer-left {
+        display: block !important;
+    }
+    .header-info-time {
+        display: none;
+    }
+    .header-img {
+        display: block;
+    }
+    .header-h1  h3{
+        font-size: 27px;
+    }
+    main a.nav-link {
+        background-color: violet !important;
+        font-size: 14px !important;
+        text-align: center;
+        color: black !important;
+    }
+    .footer-left-content p{
+        font-size: 20px !important;
+    }
+    .service-text p {
+        margin: 5px;
+        font-size: 17px !important;
+        color: black !important;
+    }
+
+}
+.phone {
+    display: flex;
+    margin-top: 75px;
+}
+.work {
+    display: flex;
+    margin-top: 75px;
+}
+.phone-p {
+    font-size: 30px;
+}
+.work-p {
+    font-size: 25px;
+    font-weight: bold;
+    font-size: 30px;
+}
+p {
+    margin-bottom: unset;
+}
+.footer-content {
+    margin: 10px;
+}
+body {
+    background-image: url("img/Альбина Рассеина_designer Albina Rasseina_1.jpg");
+}
+header a.nav-link {
+    background-color: violet !important;
+    width: 190px !important;
+    height: 75px;
+    font-size: 35px;
+    text-align: center;
+}
+main a.nav-link {
+    background-color: violet !important;
+    font-size: 25px;
+    text-align: center;
+    color: black !important;
+}
+a.nav-link:active {
+    background-color: darkviolet !important;
+}
+.service-text {
+    text-align: center !important;
+}
+.footer-right img {
+    border: 2px blue solid;
+    border-radius: 25px;
+}
+button.navbar-toggler {
+    background-color: rebeccapurple !important;
+}
+.header-content-p p {
+    font-size: 50px;
+}
+
+
